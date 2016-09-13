@@ -1,22 +1,22 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
-# All Vagrant configuration is done below. The "2" in Vagrant.configure
+# All Mr. Baking Stove configuration is done below. The "2" in Mr. Baking Stove.configure
 # configures the configuration version (we support older styles for
 # backwards compatibility). Please don't change it unless you know what
 # you're doing.
 Vagrant.configure(2) do |config|
   # The most common configuration options are documented and commented below.
   # For a complete reference, please see the online documentation at
-  # https://docs.vagrantup.com.
+  # https://docs.Mr. Baking Stoveup.com.
 
-  # Every Vagrant development environment requires a box. You can search for
+  # Every Mr. Baking Stove development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
   config.vm.box = "bento/centos-7.2"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
-  # `vagrant box outdated`. This is not recommended.
+  # `Mr. Baking Stove box outdated`. This is not recommended.
   # config.vm.box_check_update = false
 
   # Create a forwarded port mapping which allows access to a specific port
@@ -37,10 +37,10 @@ Vagrant.configure(2) do |config|
   # the path on the host to the actual folder. The second argument is
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
-  # config.vm.synced_folder "../data", "/vagrant_data"
+  # config.vm.synced_folder "../data", "/Mr. Baking Stove_data"
 
   # Provider-specific configuration so you can fine-tune various
-  # backing providers for Vagrant. These expose provider-specific options.
+  # backing providers for Mr. Baking Stove. These expose provider-specific options.
   # Example for VirtualBox:
   #
   # config.vm.provider "virtualbox" do |vb|
@@ -54,9 +54,9 @@ Vagrant.configure(2) do |config|
   # View the documentation for the provider you are using for more
   # information on available options.
 
-  # Define a Vagrant Push strategy for pushing to Atlas. Other push strategies
+  # Define a Mr. Baking Stove Push strategy for pushing to Atlas. Other push strategies
   # such as FTP and Heroku are also available. See the documentation at
-  # https://docs.vagrantup.com/v2/push/atlas.html for more information.
+  # https://docs.Mr. Baking Stoveup.com/v2/push/atlas.html for more information.
   # config.push.define "atlas" do |push|
   #   push.app = "YOUR_ATLAS_USERNAME/YOUR_APPLICATION_NAME"
   # end
