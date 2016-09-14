@@ -73,6 +73,7 @@ Vagrant.configure(2) do |config|
     yum install -y mariadb-server mariadb
     systemctl enable mariadb
     systemctl start mariadb
+    echo "You are now Backing with Mr. Backing Stove"
   SHELL
 
 end
